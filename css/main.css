@@ -1,0 +1,418 @@
+/* line 5, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1,
+.wrapper main .section-04 .container .menu-content h2, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_partials/variables.scss */
+h1, .wrapper main .section-04 .container .menu-content h2 {
+  font-size: 2em;
+  /* font-weight:bold; */
+}
+
+/* line 7, ../sass/_partials/variables.scss */
+h2 {
+  font-size: 1.5em;
+  /* font-weight:bold;  */
+}
+
+/* line 11, ../sass/_partials/variables.scss */
+h3 {
+  font-size: 1.17em;
+  /* font-weight:bold;  */
+}
+
+/* line 15, ../sass/_partials/variables.scss */
+h5 {
+  font-size: .83em;
+  /* font-weight:bold;  */
+}
+
+/* line 19, ../sass/_partials/variables.scss */
+h6 {
+  font-size: .75em;
+  /* font-weight:bold; */
+}
+
+/* line 24, ../sass/_partials/variables.scss */
+p, a, h1, .wrapper main .section-04 .container .menu-content h2, h2, h3, h4, h5, h6, label {
+  font-family: Century Gothic;
+}
+
+@font-face {
+  font-family: "Font-TWE";
+  src: url("../fonts/VIVADCL_.TTF");
+}
+/* line 9, ../sass/main.scss */
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* line 15, ../sass/main.scss */
+body {
+  overflow-y: scroll;
+}
+
+/* line 19, ../sass/main.scss */
+.wrapper {
+  height: 100%;
+}
+/* line 22, ../sass/main.scss */
+.wrapper header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* box-shadow: 5px 5px 5px #fff; */
+  border-bottom: 1px dotted #000;
+}
+/* line 32, ../sass/main.scss */
+.wrapper header #navigation {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* line 38, ../sass/main.scss */
+.wrapper header #navigation .nav {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+/* line 42, ../sass/main.scss */
+.wrapper header #navigation .nav li {
+  display: inline-block;
+}
+/* line 45, ../sass/main.scss */
+.wrapper header #navigation .nav li a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #000;
+}
+/* line 51, ../sass/main.scss */
+.wrapper header #navigation .nav li a:hover {
+  color: #fff;
+  background-color: #000;
+}
+/* line 56, ../sass/main.scss */
+.wrapper header #navigation .nav li .active-nav {
+  color: #fff;
+  background-color: #000;
+}
+/* line 65, ../sass/main.scss */
+.wrapper main {
+  height: 100%;
+}
+/* line 67, ../sass/main.scss */
+.wrapper main p {
+  margin-bottom: 1em;
+}
+/* line 70, ../sass/main.scss */
+.wrapper main .section {
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffdb9e;
+  position: relative;
+}
+/* line 72, ../sass/main.scss */
+.wrapper main .section .container {
+  height: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* line 76, ../sass/main.scss */
+.wrapper main .section-01 {
+  background: url("../img/section01_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+/* line 82, ../sass/main.scss */
+.wrapper main .section-01 .container img {
+  height: 65%;
+  vertical-align: middle;
+}
+/* line 90, ../sass/main.scss */
+.wrapper main .section-02 .container h1, .wrapper main .section-02 .section-04 .container .menu-content h2, .wrapper main .section-04 .section-02 .container .menu-content h2 {
+  padding-top: 1.5em;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #000;
+  font-family: Font-TWE;
+  font-size: 5em;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 99, ../sass/main.scss */
+.wrapper main .section-02 .container .about-container {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 3em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 105, ../sass/main.scss */
+.wrapper main .section-02 .container .about-container .onehalf {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 108, ../sass/main.scss */
+.wrapper main .section-02 .container .about-container .onehalf p img {
+  width: 100%;
+  vertical-align: bottom;
+}
+/* line 114, ../sass/main.scss */
+.wrapper main .section-02 .container .about-container .lasthalf {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+}
+/* line 117, ../sass/main.scss */
+.wrapper main .section-02 .container .about-container .lasthalf p img {
+  width: 100%;
+  vertical-align: bottom;
+}
+/* line 127, ../sass/main.scss */
+.wrapper main .section-03 .container {
+  max-width: 100%;
+}
+/* line 129, ../sass/main.scss */
+.wrapper main .section-03 .container #slides {
+  height: 100% !important;
+}
+/* line 132, ../sass/main.scss */
+.wrapper main .section-03 .container #slides .slides-navigation .prev {
+  position: absolute;
+  bottom: 47%;
+  left: 0;
+  z-index: 999;
+  font-size: 3em;
+  text-decoration: none;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+/* line 143, ../sass/main.scss */
+.wrapper main .section-03 .container #slides .slides-navigation .next {
+  position: absolute;
+  bottom: 47%;
+  right: 0;
+  z-index: 999;
+  font-size: 3em;
+  text-decoration: none;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+/* line 158, ../sass/main.scss */
+.wrapper main .section-04 {
+  height: auto;
+}
+/* line 162, ../sass/main.scss */
+.wrapper main .section-04 .container .menu-content h1, .wrapper main .section-04 .container .menu-content h2 {
+  padding-top: 2em;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #000;
+  font-family: Font-TWE;
+  font-size: 5em;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 171, ../sass/main.scss */
+.wrapper main .section-04 .container .menu-content h2 {
+  padding-top: 1.75em;
+  font-size: 4em;
+  width: 400px;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 180, ../sass/main.scss */
+.wrapper main .section-04 .container .menu-content .break-container, .wrapper main .section-04 .container .menu-content .lunch-container, .wrapper main .section-04 .container .menu-content .dinner-container, .wrapper main .section-04 .container .menu-content .drink-container {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 185, ../sass/main.scss */
+.wrapper main .section-04 .container .menu-content .break-container .onehalf, .wrapper main .section-04 .container .menu-content .lunch-container .onehalf, .wrapper main .section-04 .container .menu-content .dinner-container .onehalf, .wrapper main .section-04 .container .menu-content .drink-container .onehalf {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 188, ../sass/main.scss */
+.wrapper main .section-04 .container .menu-content .break-container .lasthalf, .wrapper main .section-04 .container .menu-content .lunch-container .lasthalf, .wrapper main .section-04 .container .menu-content .dinner-container .lasthalf, .wrapper main .section-04 .container .menu-content .drink-container .lasthalf {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+}
+/* line 205, ../sass/main.scss */
+.wrapper main .section-05 .container {
+  max-width: 100%;
+}
+/* line 207, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container {
+  max-width: 1140px;
+  margin: 0 auto 20px auto;
+}
+/* line 211, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 6em;
+  padding-bottom: 2em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 218, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 221, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form label, .wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=submit] {
+  display: block;
+  padding: 5px 0;
+}
+/* line 225, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=text], .wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=email], .wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=tel], .wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=submit], .wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form textarea {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 229, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=submit] {
+  margin-top: 5px;
+  height: 40px;
+  background: #fff;
+  border: none;
+  margin-left: 3px;
+}
+/* line 236, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec01 form input[type=submit]:hover {
+  color: #fff;
+  background-color: #000;
+}
+/* line 242, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec02 {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+}
+/* line 244, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec02 h2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+/* line 250, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec02 .center-contact {
+  padding-top: 1em;
+  width: 250px;
+  margin: 0 auto;
+}
+/* line 255, ../sass/main.scss */
+.wrapper main .section-05 .container .contact-container .contact-content .contact-sec02 .center-contact p a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 266, ../sass/main.scss */
+.wrapper main .verticalalignimg {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+/* line 273, ../sass/main.scss */
+.wrapper footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999999;
+}
+/* line 279, ../sass/main.scss */
+.wrapper footer .footer {
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffdb9e;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 282, ../sass/main.scss */
+.wrapper footer .footer .container {
+  height: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* line 284, ../sass/main.scss */
+.wrapper footer .footer .container p {
+  padding: 5px;
+  text-align: right;
+}

@@ -1,0 +1,39 @@
+/* line 3, ../../sass/_partials/variables.scss */
+h1 {
+  font-size: 2em;
+  /* font-weight:bold; */
+}
+
+/* line 7, ../../sass/_partials/variables.scss */
+h2 {
+  font-size: 1.5em;
+  /* font-weight:bold;  */
+}
+
+/* line 11, ../../sass/_partials/variables.scss */
+h3 {
+  font-size: 1.17em;
+  /* font-weight:bold;  */
+}
+
+/* line 15, ../../sass/_partials/variables.scss */
+h5 {
+  font-size: .83em;
+  /* font-weight:bold;  */
+}
+
+/* line 19, ../../sass/_partials/variables.scss */
+h6 {
+  font-size: .75em;
+  /* font-weight:bold; */
+}
+
+/* line 24, ../../sass/_partials/variables.scss */
+p, a, h1, h2, h3, h4, h5, h6, label {
+  font-family: Century Gothic;
+}
+
+@font-face {
+  font-family: "Font-TWE";
+  src: url("../fonts/VIVADCL_.TTF");
+}
